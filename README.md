@@ -15,8 +15,8 @@ project.
 
 ## Usage guide
 * Сreate button using "button_create" function
+* Call "button_timer_tick_cb" function with frequency BUTTON_TIMER_RATE_HZ
 * Call "button_isr_cb " function when the button level changed
-* Call "button_timer_tick_cb" function with with frequency BUTTON_TIMER_RATE_HZ
 * Handle events that occured in event_handler function
 
 ## Events
